@@ -154,6 +154,18 @@ $ git stash show
 $ git diff stash@{0}
 ```
 
+
+#### Add the 'origin' Remote
+
+
+
+```sh
+$ git remote add origin <new_origin_url>
+$ git remote -v
+
+```
+
+
 #### Committing files
 
 After adding/staging a file, the next step is to commit staged file(s)
