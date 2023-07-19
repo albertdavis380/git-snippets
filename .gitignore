@@ -1,0 +1,70 @@
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+wp-config.php
+
+# Ignore user-specific files
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/aiowps_backups/
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/backupbuddy_backups/
+wp-content/blogs.dir/
+wp-content/upgrade/
+
+# Ignore plugins and themes
+wp-content/plugins/
+wp-content/themes/
+
+# Ignore composer dependencies if used
+vendor/
+
+# Ignore build and minified files
+*.log
+*.pot
+*.po
+*.mo
+*.min.css
+*.min.js
+*.css.map
+*.js.map
+
+# Ignore configuration files with sensitive information
+.htaccess
+wp-config.php.save
+
+# Ignore installation files
+license.txt
+readme.html
+
+# Ignore backup files and editor temp files
+*.bak
+*.swp
+*.tmp
+
+# Ignore node modules if used
+node_modules/
+
+# Ignore development files and folders
+.vscode/
+.idea/
+.phpcs.xml
+.phpcs
+.eslintignore
+.eslintrc
+.editorconfig
+.jshintrc
+.jshintignore
+
+# Ignore version control system files
+.svn/
+.git/
+*.log
+*.err
+*.config
+*.orig
+
+# If using a staging or development site, you may want to ignore robots.txt
+# robots.txt
