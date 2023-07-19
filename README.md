@@ -157,10 +157,9 @@ $ git diff stash@{0}
 
 #### Add the 'origin' Remote
 
-
-
 ```sh
 $ git remote add origin <new_origin_url>
+
 $ git remote -v
 
 ```
