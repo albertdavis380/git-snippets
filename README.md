@@ -1,4 +1,4 @@
-# how to delete all commit history in github?
+# How to delete all commit history in github?
 
 Checkout
 
