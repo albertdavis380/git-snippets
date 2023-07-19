@@ -19,7 +19,7 @@ git branch -D main
 5) Rename the current branch to main
 
 git branch -m main
-
+ 
 6) Finally, force update your repository
 
 git push -f origin main
