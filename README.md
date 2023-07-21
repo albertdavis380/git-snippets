@@ -422,6 +422,11 @@ To add an alias simply open your .gitconfig file on your home directory and incl
 lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```
 
+#### How to solve Permission denied (publickey) error when using Git?
+```sh
+https://stackoverflow.com/questions/2643502/git-how-to-solve-permission-denied-publickey-error-when-using-git
+```
+
 ### Contributing
 
 1. Fork it!
@@ -429,6 +434,8 @@ lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push -u origin my-new-feature`
 5. Submit a pull request - cheers!
+
+
 
 
 # How to delete all commit history in github?
